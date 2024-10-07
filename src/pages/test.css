@@ -1,0 +1,10 @@
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  root: '~/Desktop/lunch-pale', // Set this to your project root
+  build: {
+    rollupOptions: {
+      input: '~/Desktop/lunch-pale/src/pages/home.html' // Specify your custom HTML file
+    }
+  }
+})
